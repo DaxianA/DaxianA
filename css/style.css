@@ -1,0 +1,340 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	border: 0;
+	color: #898989;
+}
+body{
+	background: #F4F4F4;
+}
+button{
+	border: 0;
+	background-color:transparent;
+/*	color: white;*/
+	font-size: 0.8rem;
+}
+button:focus{
+		outline: 0;
+}
+hr{
+	border: 0.03rem solid #898989;
+}
+.bgcolor{
+	width: 100%;
+	height: 30rem;
+	background: linear-gradient(-180deg, #84E196 0%, #30C0B1 100%);
+}
+.bgcolor .bigbox{
+	width: 100%;
+	padding-top: 2rem;
+}
+.bgcolor .bigbox .picture{
+	background: url("../img/1.png") no-repeat;
+	background-size: 100% 100%;
+	width: 10rem;
+	height: 10rem;
+	margin: 0 auto;
+}
+.bgcolor .switch_up{
+	width: 100%;
+	padding-top: 1.5rem;
+	text-align: center;
+}
+.bgcolor .switch_up .switch{
+	background: url("../img/2.png") no-repeat;
+	background-size: 100% 100%;
+	width: 4rem;
+	height: 4rem;
+	margin: 0 auto;
+}
+.bgcolor .curture{
+	width: 100%;
+	padding-top: 1.5rem;
+}
+.bgcolor .curture p{
+	color: white;
+	font-size: 0.8rem;
+	text-align: center;
+}
+.bg{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5.5rem;
+}
+.bg .center{
+	width: 100%;
+}
+.bg .center .photo_up{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	
+}
+.bg .center .photo_up .left,.bg .photo_up .middle,.bg .photo_up .right{
+	width: 33.3%;
+}
+.bg .center  .photo_up .left button{
+	background: url("../img/7.png") no-repeat;
+	background-size: 100% 100%;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.bg .center  .photo_up .leftagain button{
+	background: url("../img/4.png") no-repeat;
+	background-size: 100% 100%;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.bg .center .photo_up .middle button{
+	background: url("../img/5.png") no-repeat;
+	background-size: 100% 100%;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.bg .center  .photo_up .middleagain button{
+	background: url("../img/8.png") no-repeat;
+	background-size: 100% 100%;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.bg .center .photo_up .right button{
+	background: url("../img/6.png") no-repeat;
+	background-size: 100% 100%;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.bg .center .photo_up .rightagain button{
+	background: url("../img/9.png") no-repeat;
+	background-size: 100% 100%;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.bg .center .txt_down{
+	display: flex;
+}
+.bg .center .txt_down p{
+	font-size: 0.7rem;
+	width: 33.3%;
+	text-align: center;
+}
+.tab{
+	width: 100%;
+}
+.tab .superbox{
+	width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+/*    height: 11.5rem;*/
+}
+.tab .superbox .choose,.tab .superbox .chose{
+	width: 100%;
+	height: 8rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.tab .superbox .down{
+	width: 100%;
+}
+.tab .superbox .choose .text_old,.tab .superbox .chose .text_new{
+	text-align: center;
+	font-size: 0.8rem;
+}
+.tab .superbox .choose .main{
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tab .superbox .choose .main .picture_first,.tab .superbox .choose .main .picture_second,.tab .superbox .choose .main .picture_third,.tab .superbox .choose .main .picture_fourth{
+	width: 33.3%;
+	font-size: 0.7rem;
+}
+.tab .superbox .choose .main .picture_first button{
+	background: url("../img/xp.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+/*喷雾模式替换图标——小喷*/
+.tab .superbox .choose .main .replace_first button{
+	background: url("../img/xp1.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+.tab .superbox .choose .main .picture_second button{
+	background: url("../img/zp.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+/*喷雾模式替换图标——中喷*/
+.tab .superbox .choose .main .replace_second button{
+	background: url("../img/zp1.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+.tab .superbox .choose .main .picture_third button{
+	background: url("../img/dp.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+/*喷雾模式替换图标——大喷*/
+.tab .superbox .choose .main .replace_third button{
+	background: url("../img/dp1.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+.tab .superbox .choose .main .picture_fourth button{
+	background: url("../img/10.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+/*喷雾模式替换图标——自动除湿*/
+.tab .superbox .choose .main .replace_fourth button{
+	background: url("../img/11.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+.tab .superbox .chose .content{
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tab .superbox .chose .content .photo_first,.tab .superbox .chose .content .photo_second,.tab .superbox .chose .content .photo_third,.tab .superbox .chose .content .photo_fourth{
+	width: 33.3%;
+	font-size: 0.7rem;
+}
+.tab .superbox .chose .content .photo_first button{
+	background: url("../img/14.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+/*定时替换图标——取消*/
+.tab .superbox .chose .content .new_first button{
+	background: url("../img/18.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+.tab .superbox .chose .content .photo_second button{
+	background: url("../img/19.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+/*定时替换图标——1小时*/
+.tab .superbox .chose .content .new_second button{
+	background: url("../img/15.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+.tab .superbox .chose .content .photo_third button{
+	background: url("../img/20.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+/*定时替换图标——3小时*/
+.tab .superbox .chose .content .new_third button{
+	background: url("../img/16.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+.tab .superbox .chose .content .photo_fourth button{
+	background: url("../img/21.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+/*定时替换图标——5小时*/
+.tab .superbox .chose .content .new_fourth button{
+	background: url("../img/17.png") no-repeat;
+	background-size: 100% 100%;
+	width: 3rem;
+	height: 3rem;
+}
+/*
+
+.tab .superbox .down .down_down{
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+.tab .superbox .down .down_down .down_left,.tab .superbox .down .down_down .down_middle,.tab .superbox .down .down_down .down_right{
+	width: 33.3%;
+}
+.tab .superbox .down .down_down .down_left button{
+	background: url("../img/7.png") no-repeat;
+	background-size: 100% 100%;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.tab .superbox .down .down_down .down_middle button{
+	background: url("../img/5.png") no-repeat;
+	background-size: 100% 100%;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.tab .superbox .down .down_down .down_right button{
+	background: url("../img/6.png") no-repeat;
+	background-size: 100% 100%;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+*/
+.active_color{
+	color: #30C0B1;
+}
+/*关机图片变换*/
+.bgcolor .bigbox .offPower{
+	background: url("../img/power_off.png") no-repeat;
+	background-size: 100% 100%;
+	width: 10rem;
+	height: 10rem;
+	margin: 0 auto;
+}
+
+/*离线图标变换*/
+.bgcolor .bigbox .offonline{
+	background: url("../img/offonline.png") no-repeat;
+	background-size: 100% 100%;
+	width: 10rem;
+	height: 10rem;
+	margin: 0 auto;
+}
+/*关机背景颜色*/
+.superbg{
+	background: linear-gradient(-180deg, #555B62 0%, #2E333A 100%);
+}
+/*离线背景颜色*/
+.ultrabg{
+	background: linear-gradient(-180deg, #989B9F 0%, #6C7074 100%);
+}
+.ban{
+	opacity: 0.5;
+}
+
+
